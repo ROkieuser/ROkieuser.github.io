@@ -6500,6 +6500,33 @@ blockquote.pullquote.right {
 .read-mode #article-container .note .note-icon {
   color: var(--font-color);
 }
+@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css";
+.iconfont {
+font-family: "iconfont" !important;
+font-size: 3em;
+/* 可以定义图标大小 */
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+/* 若已经在项目设置中勾选了彩色选项，则无需再定义图标颜色*/
+.icon-&#xe607;:before {
+  color: #85c3de;
+}
+.icon-&#xe667;:before {
+  color: #ffaf6e;
+}
+.icon-&#xe600;:before {
+  color: #f7c768;
+}
+.icon-&#xe672;:before {
+  color: #ffbdd8;
+}
+.icon-&#xe635;:before {
+  color: #ff8787;
+}
+ 
+ 
 /* root伪类指定全局颜色 */
 :root {
   --blue-custom: #5ea6e5;
@@ -9513,6 +9540,13 @@ hr:before {
 .github-badge img:hover {
   scale: 1.05;
   transition: all 0.3s ease-in-out;
+}
+ svg.icon {
+  width: 0.5em;
+  height: 0.5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
 
 .search-dialog {
